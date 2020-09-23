@@ -3,3 +3,9 @@ sudo apt-get update
 sudo apt-get upgrade
 
 sudo apt install build-essential cmake gfortran gcc g++ pkg-config kile okular git-core texlive libtool gimp kdiff3 gnuplot paraview openmpi-bin openmpi-doc libopenmpi-dev docker virtualenv texlive-science texlive-latex-extra 
+
+wget https://launchpad.net/veracrypt/trunk/1.24-update4/+download/veracrypt-1.24-Update4-setup.tar.bz2
+
+tar xjf veracrypt-1.24-Update4-setup.tar.bz2
+
+./veracrypt-1.24-Update4-setup-gui-x64
